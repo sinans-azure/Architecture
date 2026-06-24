@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="4">
   <diagram name="Page-1" id="v_Nh_AUifPB0Yilh4dym">
-    <mxGraphModel dx="2460" dy="1510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3280" dy="2013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -635,10 +635,172 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XL8GHCNVHGKBeUloThG7" name="Page-4">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1745" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-13" edge="1" parent="1" source="ztNlg7WpsX4fAXMoHTY4-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ztNlg7WpsX4fAXMoHTY4-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Terraform IaC" vertex="1">
+          <mxGeometry height="60" width="120" x="-470" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Update Workload identity to gitops" vertex="1">
+          <mxGeometry height="60" width="120" x="-470" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-15" edge="1" parent="1" source="ztNlg7WpsX4fAXMoHTY4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ztNlg7WpsX4fAXMoHTY4-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-350" y="310" as="sourcePoint" />
+            <mxPoint x="1130" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Trigger&lt;div&gt;Push/PR dev/main&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-310" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-16" edge="1" parent="1" source="ztNlg7WpsX4fAXMoHTY4-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ztNlg7WpsX4fAXMoHTY4-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-190" y="310" as="sourcePoint" />
+            <mxPoint x="1130" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Snyc IaC &amp;amp; Trivy Config Scan" vertex="1">
+          <mxGeometry height="60" width="120" x="-150" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-17" edge="1" parent="1" source="ztNlg7WpsX4fAXMoHTY4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ztNlg7WpsX4fAXMoHTY4-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-190" y="310" as="sourcePoint" />
+            <mxPoint x="-150" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Whitelist Runner IP" vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-19" edge="1" parent="1" source="ztNlg7WpsX4fAXMoHTY4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ztNlg7WpsX4fAXMoHTY4-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="310" as="sourcePoint" />
+            <mxPoint x="970" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Terraform Format check" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-20" edge="1" parent="1" source="ztNlg7WpsX4fAXMoHTY4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ztNlg7WpsX4fAXMoHTY4-8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="310" as="sourcePoint" />
+            <mxPoint x="970" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Terraform init&lt;div&gt;Validate&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-21" edge="1" parent="1" source="ztNlg7WpsX4fAXMoHTY4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ztNlg7WpsX4fAXMoHTY4-9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="310" as="sourcePoint" />
+            <mxPoint x="970" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Terraform&lt;div&gt;Plan&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-22" edge="1" parent="1" source="ztNlg7WpsX4fAXMoHTY4-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ztNlg7WpsX4fAXMoHTY4-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="310" as="sourcePoint" />
+            <mxPoint x="970" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Pull Request&lt;div&gt;Wait for Aproval&lt;br&gt;(Gate)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-150" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-23" edge="1" parent="1" source="ztNlg7WpsX4fAXMoHTY4-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ztNlg7WpsX4fAXMoHTY4-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="310" as="sourcePoint" />
+            <mxPoint x="970" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Terraform&lt;div&gt;Apply&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-310" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-24" edge="1" parent="1" source="ztNlg7WpsX4fAXMoHTY4-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ztNlg7WpsX4fAXMoHTY4-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Source Code" vertex="1">
+          <mxGeometry height="60" width="120" x="-470" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Update Workload identity to gitops" vertex="1">
+          <mxGeometry height="60" width="120" x="-470" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-27" edge="1" parent="1" source="ztNlg7WpsX4fAXMoHTY4-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ztNlg7WpsX4fAXMoHTY4-28" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-350" y="570" as="sourcePoint" />
+            <mxPoint x="1130" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Trigger" vertex="1">
+          <mxGeometry height="60" width="120" x="-310" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-29" edge="1" parent="1" source="ztNlg7WpsX4fAXMoHTY4-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ztNlg7WpsX4fAXMoHTY4-30" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-190" y="570" as="sourcePoint" />
+            <mxPoint x="1130" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Snyc &amp;amp; Trivy Scan" vertex="1">
+          <mxGeometry height="60" width="120" x="-150" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-31" edge="1" parent="1" source="ztNlg7WpsX4fAXMoHTY4-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ztNlg7WpsX4fAXMoHTY4-32" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-190" y="570" as="sourcePoint" />
+            <mxPoint x="-150" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Whitelist Runner IP" vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-33" edge="1" parent="1" source="ztNlg7WpsX4fAXMoHTY4-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ztNlg7WpsX4fAXMoHTY4-34" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="570" as="sourcePoint" />
+            <mxPoint x="970" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Terraform Format check" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-35" edge="1" parent="1" source="ztNlg7WpsX4fAXMoHTY4-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ztNlg7WpsX4fAXMoHTY4-36" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="570" as="sourcePoint" />
+            <mxPoint x="970" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Terraform init&lt;div&gt;Validate&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-37" edge="1" parent="1" source="ztNlg7WpsX4fAXMoHTY4-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ztNlg7WpsX4fAXMoHTY4-38" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="570" as="sourcePoint" />
+            <mxPoint x="970" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Terraform&lt;div&gt;Plan&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-39" edge="1" parent="1" source="ztNlg7WpsX4fAXMoHTY4-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ztNlg7WpsX4fAXMoHTY4-40" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="570" as="sourcePoint" />
+            <mxPoint x="970" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Pull Request&lt;div&gt;Wait for Aproval&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-150" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-41" edge="1" parent="1" source="ztNlg7WpsX4fAXMoHTY4-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ztNlg7WpsX4fAXMoHTY4-42" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="570" as="sourcePoint" />
+            <mxPoint x="970" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ztNlg7WpsX4fAXMoHTY4-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Terraform&lt;div&gt;Apply&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-310" y="650" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
